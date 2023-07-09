@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        TEMPERATURE CONVERTER
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <h1>TEMPERATURE CONVERTER</h1>
+
+        <div id="celsius">
+            <label>C</label>
+            <input type="number" placeholder="Celsius" id="ctemp">
+        </div>
+        <div id="fahrenheit">
+            <label>F</label>
+            <input type="number" placeholder="Fahrenheit" id="ftemp">
+        </div>
+        <div id="kelvin">
+            <label>K</label>
+            <input type="number" placeholder="Kelvin" id="ktemp">
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
